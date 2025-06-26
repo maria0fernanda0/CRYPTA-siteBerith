@@ -1,0 +1,20 @@
+@charset "UTF-08";
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --cor-principal: #596992;
+    --cor-secundaria: #425377;
+    --cor-terciaria: #f8e5b9;
+    --cor-detalhes: #aebadf;
+    --cor-titulo: #303c55;
+}
+
+.promo img{
+    width: 10vh;
+}
