@@ -1,0 +1,158 @@
+@charset "UTF-08";
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --cor-principal: #596992;
+    --cor-secundaria: #425377;
+    --cor-terciaria: #f8e5b9;
+    --cor-detalhes: #aebadf;
+    --cor-titulo: #303c55;
+}
+
+header {
+    background-image: url(/assets/ori-header-background_resized.png);
+    background-size: cover;
+    position: sticky;
+    border-bottom: 20px solid #303c55;
+    flex-wrap: 1 2 1200px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px 0px 10px;
+}
+
+
+.logo img {
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 120px;
+    margin: 6px;
+}
+
+.indice {
+    align-content: end;
+    font-size: 30px;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.indice ul {
+    display: flex;
+}
+
+.indice li {
+    list-style: none;
+    padding-left: 120px;
+}
+
+.indice a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.indice a:hover {
+    color: var(--cor-terciaria);
+}
+
+/* header acima */
+
+footer {
+    background-image: url(/assets/ori-header-background_resized.png);
+    border-top: 30px solid var(--cor-titulo);
+    background-size: cover;
+    flex-wrap: wrap;
+    flex: 1 2 300px;
+    height: 320px;
+    box-sizing: border-box;
+    color: var(--cor-terciaria);
+}
+
+.sobreFooter {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.sobreFooter ul {
+    list-style: none;
+}
+
+.infoFooter ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.infoFooter a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+
+}
+
+.imgFooter img {
+    background-color: white;
+    border-radius: 120px;
+    height: 20vh;
+}
+
+.redesSociais h2 {
+    text-align: center;
+}
+
+.redesSociais ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redesSociais img {
+    width: 6vw;
+    height: 12vh;
+}
+
+.copy ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.copy li {
+    display: flex;
+    gap: 10px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.infoFooter a:hover{
+    color: var(--cor-detalhes);
+}
+
+.funcionamento {
+    width: 300px;
+}
+
+#sobreFooter2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+ /* footer acima */
+
